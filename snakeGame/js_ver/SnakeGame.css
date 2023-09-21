@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #d0d0d0;
+}
+
+.snake {
+  background-color: #7530e5;
+}
+
+.snakeHead {
+  background-color: darkgreen;
+}
+
+.food {
+  background-color: #2773e3;
+}
+
+button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 22px;
+  padding: 12px 24px;
+}
